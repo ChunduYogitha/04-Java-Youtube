@@ -1,3 +1,5 @@
+Loop Scope : Anything intialised that is intialised outside the block can be used inside the block.
+             Anything intialised inside the block cannot be used outside.
 import java.io.*;
 import java.util.*;
 public class Main{
