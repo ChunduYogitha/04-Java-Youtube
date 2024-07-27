@@ -1,3 +1,8 @@
+1)Printing values using VarArgs
+2)Multiple mutiple datas using VarAgrs 
+
+-------------------------------------------------------------------
+1)Printing values using VarArgs
 import java.io.*;
 import java.util.*;
 public class Main{
@@ -10,9 +15,8 @@ public class Main{
 }
 OUTPUT
 [1, 2, 3, 4, 5, 65]
-
-=== Code Execution Successful ===
-
+---------------------------------------------------------------------
+2)Multiple mutiple datas using VarAgrs 
 import java.io.*;
 import java.util.*;
 public class Main{
