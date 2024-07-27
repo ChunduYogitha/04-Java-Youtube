@@ -1,5 +1,6 @@
 1) Using same method name with different arguments
 2) Using Same method name and same arguments 
+ 3) Method overloading with VarArgs
 ---------------------------------------------------------------------------
  1) Using same method name with different arguments 
 import java.io.*;
@@ -38,3 +39,24 @@ public class Main{
         return a + b + c;
     }
 }
+---------------------------------------------------------------------------
+
+3) Method overloading with VarArgs
+ import java.io.*;
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+    demo(1,2,5,8,99);
+    demo("Java","Py");
+    }
+    static void demo(int... v){
+        System.out.println(Arrays.toString(v));
+    }
+    static void demo(String... v){
+        System.out.println(Arrays.toString(v));
+    }
+}
+//
+[1,2,5,99]
+ [Java , Py]
+ //
